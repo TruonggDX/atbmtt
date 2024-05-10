@@ -14,9 +14,9 @@ int main()
 { 
  string text;
  int k; 
- cout << "Nhap chuoi can giai ma : ";
+ cout << "Nhap chuoi can giai ma : ";  //ZWDPRDCVCVWTIWDCVIXC
  cin >> text;
- cout << "\nNhap khoa can giai ma: ";
+ cout << "\nNhap khoa can giai ma: "; //15
  cin >> k; 
  cout <<"\nBan ro duoc giai ma (Decrypting): "<< giaima(text,k); 
  return 0; 

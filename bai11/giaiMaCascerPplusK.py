@@ -11,6 +11,6 @@ def giaima(text,k):
             kq += chr((ord(char) - k - 97) % 26 + 97) 
     return kq
 #Nhập nội dung bản mã C để thực hiện giải mã 
-text = str(input("Nhập chuỗi cần giải mã(Decrypting):"))
+text = str(input("Nhập chuỗi cần giải mã(Decrypting):")) #XUCBIWNUCHAOSYHPUGICNLOIHABUHIC
 k=int(input("Nhập khóa K cần giải:"))
 print ("Bản rõ được giải (Text): " + giaima(text,k))

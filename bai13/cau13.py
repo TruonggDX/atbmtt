@@ -5,9 +5,9 @@ def gcd(a,b):
         return a 
     else: 
         return gcd(b,a%b)
-p = int(input('Nhập số nguyên tố p = ')) 
-q = int(input('Nhập số nguyên tố q = ')) 
-M = int(input('Nhập giá trị bản rõ = '))
+p = int(input('Nhập số nguyên tố p = '))  #79
+q = int(input('Nhập số nguyên tố q = '))  #89
+M = int(input('Nhập giá trị bản rõ = '))  #100
 n = p*q 
 t = (p-1)*(q-1)
 #Tính khóa k

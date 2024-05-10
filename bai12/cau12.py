@@ -1,4 +1,4 @@
-text= "UHNIUHPUVUIGUNNBIHANCH"
+text=str(input("Nhập bản mã cần giải:")) #UHNIUHPUVUIGUNNBIHANCH
 Alpha = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 for key in range(len(Alpha)):
     s = ''

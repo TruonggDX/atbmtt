@@ -11,6 +11,6 @@ def mahoa(text,k):
             kq += chr((ord(char) + k - 97) % 26 + 97) 
     return kq
 #Nhập nội dung để thực hiện mã hóa 
-text = str(input("Nhập chuỗi cần mã hóa(Encrypting):"))
+text = str(input("Nhập chuỗi cần mã hóa(Encrypting):")) #DAIHOCTAINGUYENVAMOITRUONGHANOI
 k=int(input("Nhập khóa K cần mã hóa:"))
 print ("Bản được mã hóa (Cipher): " + mahoa(text,k))

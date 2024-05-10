@@ -1,5 +1,5 @@
 import random
-n=int(input("Nhập số tự nhiên n:"))
+n=int(input("Nhập số tự nhiên n:")) #100
 print("Chương trình dò tìm mật khẩu ngẫu nhiên từ 1 đến",n)
 mk = str(random.randint(1,n))
 #tạo mảng

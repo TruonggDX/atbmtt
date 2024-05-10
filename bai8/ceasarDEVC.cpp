@@ -14,9 +14,9 @@ int main()
 { 
     string text;
     int k; 
-    cout << "Nhap chuoi can ma hoa (Encrypting) : ";
+    cout << "Nhap chuoi can ma hoa (Encrypting) : "; //ZWDPRDCVCVWTIWDCVIXC
     cin >> text;
-    cout << "\nNhap khoa can ma hoa: ";
+    cout << "\nNhap khoa can ma hoa: "; // 15
     cin >> k; 
     cout <<"\nBan duoc ma hoa (Cipher): "<< mahoa(text,k); 
     return 0; 

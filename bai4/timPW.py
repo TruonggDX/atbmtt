@@ -1,6 +1,6 @@
 from random import randint
 
-mk = input("Nhập mật khẩu cần tìm: ")
+mk = input("Nhập mật khẩu cần tìm: ") #abc
 
 # Lập dãy các kí tự bảng Alpha, bao gồm cả chữ thường và hoa
 Alpha = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 
