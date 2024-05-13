@@ -7,5 +7,5 @@ def generateOTP() :
         OTP += string[math.floor(random.random() * length)] 
     return OTP 
 
-if __name__ == "__main__" : 
+if __name__ == "__main__" :  
  print("Ma OTP:", generateOTP())

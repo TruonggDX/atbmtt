@@ -13,7 +13,7 @@ import mysql.connector
 # Thông tin kết nối đến cơ sở dữ liệu 
 host = "localhost" 
 user = "root" 
-password = "12092003" 
+password = "td082003" 
 database = "example_db"
 port=3306
  

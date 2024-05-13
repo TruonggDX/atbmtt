@@ -4,13 +4,14 @@ Hiển thị trạng thái của tất cả các dịch vụ: net start
 2. Kiểm soát, chia sẻ tài nguyên (Managing File Shares and Printer Shares); 
 Tạo một chia sẻ file: net share <tên chia sẻ>=<đường dẫn thư mục>
 
-ví dụ : C:\Users\dinhx>net share demo=D:\BaiTapLon_Nam3_K2
+ví dụ : net share demo=D:\a
 thành công sẽ hiển thị :     demo was shared successfully.
 kiểm tra xem có chưa : net share
 
 Xóa một chia sẻ file: net share <tên chia sẻ> /delete
-ví dụ : C:\Users\dinhx>net share demo1 /delete
-thành công :     demo1 was deleted successfully.
+ví dụ:
+	net share demo /delete
+thành công :     demo was deleted successfully.
 
 3. Kiểm soát tác vụ in ấn và thời gian vào mạng (Managing Network Print jobs and Network Time):
 
@@ -19,15 +20,19 @@ thành công :     demo1 was deleted successfully.
 4. Kiểm soát bảo mật hệ thống (Managing Security):
 Thêm một tài khoản người dùng mới: net user <tên tài khoản> <mật khẩu> /add
 ví dụ : 
-C:\Users\dinhx>net user demo1 demo /add
+	net user demo1 demo /add
 The command completed successfully.
 kiểm tra : net user
+
 Xóa một tài khoản người dùng: net user <tên tài khoản> /delete
-C:\Users\dinhx>net user demo1 /delete
-The command completed successfully.
+ví dụ:
+	net user demo1 /delete
+thành công : The command completed successfully.
 Thay đổi mật khẩu của một tài khoản: net user <tên tài khoản> <mật khẩu mới>
-C:\Users\dinhx>net user demo1 pass
-The command completed successfully.
+ví dụ:
+	C:\Users\dinhx>net user demo1 pass
+thành công : 
+	The command completed successfully.
 
 5.Giao dịch nhắn tin qua mạng (Network Messaging):
 
