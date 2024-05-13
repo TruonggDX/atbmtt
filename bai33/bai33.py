@@ -1,4 +1,4 @@
-#lệnh cài thư viện nếu chưa có: pip install mysql-connector-python
+#lệnh cài thư viện nếu chưa có: pip install mysql-connector-python hoặc python -m pip install mysql-connector-python
 # create database example_db;
 # use example_db;
 # create table test(
@@ -13,7 +13,7 @@ import mysql.connector
 # Thông tin kết nối đến cơ sở dữ liệu 
 host = "localhost" 
 user = "root" 
-password = "td082003" 
+password = "12092003" 
 database = "example_db"
 port=3306
  

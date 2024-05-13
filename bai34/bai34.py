@@ -1,5 +1,5 @@
-#pip install requests
-#pip install beautifulsoup4
+#pip install requests hoặc python -m pip install requests
+#pip install beautifulsoup4 hoặc python -m pip install beautifulsoup4
 
 import requests 
 from bs4 import BeautifulSoup 
