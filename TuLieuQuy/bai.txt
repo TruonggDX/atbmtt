@@ -1,0 +1,10 @@
+#dùng shope.vn để lấy ra địa chỉ mạng và mặt nạ mạng
+Bước 1 : Mở chạy wireshark trước 
+Bước 2 : Mở chạy nmap vào nmap dán vào target
+nmap sn 143.92.75.90/24  --disable-arp-ping
+
+Bước 3: Quay lại wireshark stop và save lại
+Bước 4 : mở file vừa lưu 
+Ctrl F tìm 
+icmp && icmp.type==0 
+ấn find

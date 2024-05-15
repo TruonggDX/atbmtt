@@ -1,0 +1,47 @@
+1. Quản lý dịch vụ (Managing Services):
+Hiển thị trạng thái của tất cả các dịch vụ: net start
+
+2. Kiểm soát, chia sẻ tài nguyên (Managing File Shares and Printer Shares); 
+Tạo một chia sẻ file: net share <tên chia sẻ>=<đường dẫn thư mục>
+
+ví dụ : net share demo=D:\a
+thành công sẽ hiển thị :     demo was shared successfully.
+kiểm tra xem có chưa : net share
+
+Xóa một chia sẻ file: net share <tên chia sẻ> /delete
+ví dụ:
+	net share demo /delete
+thành công :     demo was deleted successfully.
+
+3. Kiểm soát tác vụ in ấn và thời gian vào mạng (Managing Network Print jobs and Network Time):
+ví dụ : wmic printer list brief
+
+
+4. Kiểm soát bảo mật hệ thống (Managing Security):
+Thêm một tài khoản người dùng mới: net user <tên tài khoản> <mật khẩu> /add
+ví dụ : 
+	net user demo1 demo /add
+The command completed successfully.
+kiểm tra : net user
+
+Xóa một tài khoản người dùng: net user <tên tài khoản> /delete
+ví dụ:
+	net user demo1 /delete
+thành công : The command completed successfully.
+
+Thay đổi mật khẩu của một tài khoản: net user <tên tài khoản> <mật khẩu mới>
+ví dụ:
+	C:\Users\dinhx>net user demo1 pass
+thành công : 
+	The command completed successfully.
+
+
+5.Giao dịch nhắn tin qua mạng (Network Messaging):
+Gửi một tin nhắn đến một máy tính khác: net send <tên máy tính> <nội dung tin nhắn>
+
+
+
+6.Quản lý cấu hình mạng (Managing Network configuration):
+Hiển thị thông tin cấu hình mạng: ipconfig /all
+Đặt lại cấu hình mạng: ipconfig /release và ipconfig /renew
+Kiểm tra kết nối mạng: ping <địa chỉ IP hoặc tên miền> ví dụ : 192.168.1.1

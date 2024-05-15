@@ -12,5 +12,5 @@ def giaima(text,k):
     return kq
 #Nhập nội dung bản mã C để thực hiện giải mã 
 text = str(input("Nhập chuỗi cần giải mã(Decrypting):")) #XUCBIWNUCHAOSYHPUGICNLOIHABUHIC
-k=int(input("Nhập khóa K cần giải:"))
+k=int(input("Nhập khóa K cần giải:"))  #k=20
 print ("Bản rõ được giải (Text): " + giaima(text,k))
